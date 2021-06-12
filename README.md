@@ -23,6 +23,12 @@ Clone this repository or copy the files from this repository into a new folder. 
 
 Make sure to [add your user to the `docker` group](https://docs.docker.com/install/linux/linux-postinstall/#manage-docker-as-a-non-root-user) when using Linux.
 
+### install docker using brew
+
+Only use `brew install --cask docker`. 
+brew uninstall docker docker-compose
+then run brew install --cask docker
+
 ## Configuration
 
 Copy the example environment into `.env`
